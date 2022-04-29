@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+a:hover{
+    color: aqua
+}
+
+/*nav bar*/
+nav li{
+    display: inline-block;
+    padding:12px;
+}
+
+nav ul a{
+    color: white;
+    font-size: 20px;
+}
+
+nav{
+    background-color: rgb(29, 84, 146);
+    text-align: center;
+    height: 40px;
+}
+
+footer{
+    background-color: rgb(87, 85, 85);
+    color: #fff;
+    text-align: center;
+    height: 150px;
+}
+

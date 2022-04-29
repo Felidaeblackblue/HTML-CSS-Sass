@@ -1,0 +1,66 @@
+@import url("dist/style.css");
+/*main*/
+main {
+  display: flex;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 300px 1fr;
+}
+
+/*section*/
+section div img {
+  width: 100%;
+}
+
+/*aside*/
+aside {
+  text-align: center;
+}
+
+.text-aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+div h3 {
+  background-color: rgb(90, 103, 131);
+  height: 30px;
+  text-align: center;
+}
+
+.contact {
+  margin: 15px;
+}
+
+/*tablette*/
+@media all and (max-width: 760px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  aside {
+    order: 2;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*Mobile*/
+@media all and (max-width: 346px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=article.css.map */
