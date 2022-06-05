@@ -8,18 +8,15 @@
     <link rel="stylesheet" href="dist/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
     <title>Article</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul> 
-                <li><a href="accueil.html">Accueil</a></li>
-                <li><a href="article.html">Article</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<?php
+include 'header.php';
+
+?>
     <main>
         <aside>
             <img class="aside-article" src="image/501177.jpg" alt="">
@@ -54,8 +51,8 @@
             </div>
         </section>
     </main>
-    <footer>
-        <h3>Footer</h3>
-    </footer>
+    <?php
+include 'footer.php';
+?>
 </body>
 </html>
